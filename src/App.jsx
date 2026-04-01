@@ -1,6 +1,7 @@
 
 import './App.css'
 import Footer from './components/Footer'
+import GetStartedSteps from './components/GetStartedSteps'
 import HeroSection from './components/HeroSection'
 import NavBar from './components/NavBar'
 import OptSection from './components/OptSection'
@@ -15,6 +16,7 @@ function App() {
     <NavBar/>
     <HeroSection/>
     <StatsSection/>
+    <GetStartedSteps/>
     <PricingSection/>
     <OptSection/>
     <Footer/>

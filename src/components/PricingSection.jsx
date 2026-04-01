@@ -18,7 +18,7 @@ const PricingSection = () => {
                 
                 <div className="mt-12 grid gap-6 lg:grid-cols-3 ">
                     
-                    <div className="transition hover:scale-105 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                    <div className="transition hover:scale-110 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
                         <h3 className="text-2xl font-semibold text-slate-800">Starter</h3>
                         <p className="mt-2 text-sm text-slate-500">
                             Perfect for getting started
@@ -48,13 +48,13 @@ const PricingSection = () => {
                             </li>
                         </ul>
 
-                        <button className="mt-8 w-full rounded-full bg-linear-to-r from-[#5b2df5] to-[#b91cff] px-5 py-3 text-sm font-semibold text-white transition hover:opacity-70 cursor-pointer">
+                        <button className="mt-8 w-full rounded-full bg-linear-to-r from-[#5b2df5] to-[#b91cff] px-5 py-3 text-sm font-semibold text-white transition hover:opacity-70 hover:scale-111 cursor-pointer">
                             Get Started Free
                         </button>
                     </div>
 
                    
-                    <div className="transition hover:scale-105 relative rounded-2xl bg-linear-to-b from-[#6c2cff] to-[#b11cff] p-6 text-white shadow-lg">
+                    <div className="transition hover:scale-110 relative rounded-2xl bg-linear-to-b from-[#6c2cff] to-[#b11cff] p-6 text-white shadow-lg">
                         <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#f4c542] px-3 py-1 text-xs font-medium text-slate-900">
                             Most Popular
                         </div>
@@ -94,13 +94,13 @@ const PricingSection = () => {
                             </li>
                         </ul>
 
-                        <button className="mt-8 w-full rounded-full bg-white px-5 py-3 text-sm font-semibold text-[#6c2cff] transition hover:bg-white/70 cursor-pointer">
+                        <button className="mt-8 w-full rounded-full bg-white px-5 py-3 text-sm font-semibold text-[#6c2cff] transition hover:bg-white/70 hover:scale-111 cursor-pointer">
                             Start Pro Trial
                         </button>
                     </div>
 
                    
-                    <div className="transition hover:scale-105 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                    <div className="transition hover:scale-110 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
                         <h3 className="text-2xl font-semibold text-slate-800">Enterprise</h3>
                         <p className="mt-2 text-sm text-slate-500">
                             For teams and businesses
@@ -138,7 +138,7 @@ const PricingSection = () => {
                             </li>
                         </ul>
 
-                        <button className="mt-8 w-full rounded-full bg-linear-to-r from-[#5b2df5] to-[#b91cff] px-5 py-3 text-sm font-semibold text-white transition hover:opacity-70 cursor-pointer">
+                        <button className="mt-8 w-full rounded-full bg-linear-to-r from-[#5b2df5] to-[#b91cff] px-5 py-3 text-sm font-semibold text-white transition hover:opacity-70 hover:scale-111 cursor-pointer">
                             Contact Sales
                         </button>
                     </div>
