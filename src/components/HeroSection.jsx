@@ -25,11 +25,11 @@ const HeroSection = () => {
                     </p>
 
                     <div className="mt-6 flex flex-col items-center gap-3 sm:mt-8 sm:flex-row sm:justify-center sm:gap-4 md:justify-start">
-                        <button className="w-full rounded-full bg-purple-600 px-6 py-3 text-sm font-medium text-white transition hover:bg-purple-700 sm:w-auto">
+                        <button className="w-full rounded-full bg-purple-600 px-6 py-3 text-sm font-medium text-white transition hover:scale-105 hover:bg-purple-800 sm:w-auto cursor-pointer">
                             Explore Products
                         </button>
 
-                        <button className="w-full rounded-full border border-purple-500 px-6 py-3 text-sm font-medium text-purple-600 transition hover:bg-purple-50 sm:w-auto flex items-center gap-1">
+                        <button className="w-full rounded-full border border-purple-500 px-6 py-3 text-sm font-medium text-purple-600 transition hover:scale-105 hover:bg-purple-300 sm:w-auto flex items-center gap-1 cursor-pointer">
                             <CiPlay1 /> Watch Demo
                         </button>
                     </div>

@@ -24,7 +24,7 @@ const NavBar = () => {
                 </div>
             </div>
             <div className="navbar-center hidden md:flex">
-                <ul className="menu menu-horizontal gap-10 px-1 text-lg">
+                <ul className="menu menu-horizontal gap-10 px-1 text-lg cursor-pointer">
                     <li>Products</li>
                     <li>Features</li>
                     <li>Pricing</li>
@@ -34,9 +34,9 @@ const NavBar = () => {
             </div>
             <div className="navbar-end gap-5">
                 <div className="nav-actions flex items-center gap-3 ">
-                    <span className="cart"><BsCart2 /></span>
-                    <button className="login">Login</button>
-                    <button className="bg-purple-600 text-white px-5 py-2 rounded-full hover:bg-purple-700 transition">
+                    <span className="cart cursor-pointer transition hover:scale-105"><BsCart2 /></span>
+                    <button className="login cursor-pointer transition hover:scale-105">Login</button>
+                    <button className="bg-purple-600 text-white px-5 py-2 rounded-full hover:bg-purple-700 transition hover:scale-105 cursor-pointer">
                         Get Started
                     </button>
                 </div>

@@ -14,11 +14,11 @@ const OptSection = () => {
                 </p>
 
                 <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row">
-                    <button className="rounded-full bg-white px-6 py-3 text-sm font-medium text-[#5b2df5] transition hover:scale-105">
+                    <button className="rounded-full bg-white px-6 py-3 text-sm font-medium text-[#5b2df5] transition hover:scale-105 cursor-pointer">
                         Explore Products
                     </button>
 
-                    <button className="rounded-full border border-white/70 px-6 py-3 text-sm font-medium text-white transition hover:bg-white/10">
+                    <button className="rounded-full border border-white/70 px-6 py-3 text-sm font-medium text-white transition hover:scale-105 hover:bg-white/10 cursor-pointer">
                         View Pricing
                     </button>
                 </div>
