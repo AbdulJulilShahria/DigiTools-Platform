@@ -1,16 +1,42 @@
-# React + Vite
+# 🚀 DigiTools - Modern Digital Tools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+DigiTools is a modern web application that provides a collection of powerful digital tools designed for creators, developers, and professionals. It offers a clean UI, fast performance, and a seamless user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Description
+This project focuses on delivering a user-friendly platform where users can browse, select, and purchase digital tools efficiently. It is fully responsive and optimized for performance across all devices.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- ⚛️ React.js  
+- 🎨 Tailwind CSS  
+- 🌼 DaisyUI  
+- 🔤 Google Fonts  
+- 💻 JavaScript (ES6+)  
+- 🔔 React-Toastify  
+- 🎯 React Icons  
+- 📍 Locaid Icon  
+- 📦 JSON (for product data)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌟 Features
+
+### 1️⃣ Interactive Product System
+- Browse multiple digital tools  
+- Dynamic product cards using JSON  
+- Add to cart functionality  
+
+### 2️⃣ Responsive Modern UI
+- Fully responsive design  
+- Clean UI with Tailwind & DaisyUI  
+- Smooth animations and hover effects  
+
+### 3️⃣ Smart Cart & Notifications
+- Real-time cart updates  
+- Toast notifications  
+- Easy add/remove products  

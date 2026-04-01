@@ -25,7 +25,7 @@ function App() {
  
   return (
     <>
-      <NavBar />
+      <NavBar carts={carts} />
       <HeroSection />
       <StatsSection />
       {activeTab === 'product' && <Data carts={carts} setCarts={setCarts} dataPromise={dataPromise} setActiveTab={setActiveTab} />}

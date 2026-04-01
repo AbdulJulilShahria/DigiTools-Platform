@@ -1,9 +1,9 @@
 import React from 'react';
 import { BsCart2 } from 'react-icons/bs';
-const NavBar = () => {
+const NavBar = ({carts}) => {
     return (
         <>
-        <div className="navbar container mx-auto">
+        <div className="navbar container mx-auto sticky top-0 z-50 bg-white shadow">
             <div className="navbar-start">
                 <div className="dropdown md:hidden">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -34,7 +34,8 @@ const NavBar = () => {
             </div>
             <div className="navbar-end gap-5">
                 <div className="nav-actions flex items-center gap-3 ">
-                    <span className="cart cursor-pointer transition hover:scale-105"><BsCart2 /></span>
+                    <span className="relative cart cursor-pointer transition hover:scale-105"><BsCart2 /></span>
+                    <span className='text-purple-700 absolute top-2 right-48'>{carts.length}</span>
                     <button className="login cursor-pointer transition hover:scale-105">Login</button>
                     <button className="bg-purple-600 text-white px-5 py-2 rounded-full hover:bg-purple-700 transition hover:scale-105 cursor-pointer">
                         Get Started
