@@ -3,6 +3,7 @@ import './App.css'
 import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import NavBar from './components/NavBar'
+import OptSection from './components/OptSection'
 import StatsSection from './components/StatsSection'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <NavBar/>
     <HeroSection/>
     <StatsSection/>
+    <OptSection/>
     <Footer/>
    </>
   )
